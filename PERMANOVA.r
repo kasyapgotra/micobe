@@ -1,12 +1,10 @@
 #PERMANOVA for community-level multivariate comparisons
-#PERMANOVA quantifies multivariate community-level differences between groups.
 # Load libraries
 library(microbiome)
 library(ggplot2)
 library(dplyr)
 
 # Probiotics intervention example data 
-# Source: https://peerj.com/articles/32/
 pseq <- ps_final # Rename the example data
 
 # Pick relative abundances (compositional) and sample metadata 
